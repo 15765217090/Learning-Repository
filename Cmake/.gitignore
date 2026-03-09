@@ -1,0 +1,50 @@
+# 编译输出文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.lib
+*.a
+
+# 测试和构建目录
+Debug/
+Release/
+x64/
+x86/
+build/
+CMakeFiles/
+*.cmake
+CMakeCache.txt
+Makefile
+
+# IDE 配置文件（Visual Studio、VS Code、Qt Creator 等）
+.vs/
+.vscode/
+*.user
+*.suo
+*.ntvs*
+*.njsproj
+*.sln          # 如果整个团队使用相同 .sln 可以保留，否则建议忽略
+*.vcxproj*
+*.filters
+
+# Qt 相关（如果使用 Qt）
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+*.moc
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+*.cache
+
+# 操作系统生成的文件
+Thumbs.db
+.DS_Store
